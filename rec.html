@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rec.css">
+</head>
+<body>
+ <header class="title">Recommendations</header>
+    <div class="container">  
+     <header>Scholarship Recommendations</header>
+        <form action="#">
+            <div class="form-first">
+               <div class="details personal">
+                <span class="stitle">Enter Following Details</span>
+                <div class="fields">
+                    <label class="field" for="country-names">Choose a country:</label> 
+                         <select class="dropdown" name="country-names" id="country-names"> 
+                            <option value="united-states">United States</option> 
+                            <option value="united-kingdom">United Kingdom</option> 
+                            <option value="pakistan">Pakistan</option> 
+                            <option value="india">India</option> 
+                            <option value="nigeria">Nigeria</option> 
+                            <option value="canada">Canada</option> 
+                            <option value="south-africa">South Africa</option> 
+                            <option value="europe">Europe</option> 
+                        </select><br>
+                        <label class="field" for="course-names">Choose a course:</label> 
+                         <select class="dropdown" name="course-names" id="course-names"> 
+                            <option value="bachelors">Bachelor's</option> 
+                            <option value="masters">Masters</option> 
+                            <option value="phd">Phd</option> 
+                            <option value="notf">Not Funded</option> 
+                            <option value="fullyf">Fully Funded</option>  
+                        </select>
+
+                        <button class="nextBtn">
+                            <span class="btnText">Generate</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>   
+                        
+                        
+                        <div class="container">
+                            <header>These are the scholarships best suited for you:</header>
+                        </div>
+</body>
+</html>
