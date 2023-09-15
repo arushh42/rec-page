@@ -16,7 +16,7 @@ body{
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
 
-.container{
+.container1{
     position: absolute;
     max-width: 900px;
     width: 100%;
@@ -28,14 +28,25 @@ body{
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
-.container header{
+.container2{
+    position: absolute;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 25px;
+    margin-top: 300px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.container1 header{
     font-size: 25px;
     font-weight: 600;
     color: #333;
     position: relative;
   }
 
-  .container form .stitle{
+  .container1 form .stitle{
     font-size: 20px;
     display: block;
     margin-bottom: 8px;
@@ -56,7 +67,7 @@ body{
     color:#fff;
   }
 
-  .container form button{
+  .container1 form button{
     display: flex;
     align-items: center;
     justify-content: center;
